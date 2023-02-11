@@ -1,9 +1,7 @@
 package com.sotk.stayoutthekitchen.Entity;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Getter;
 
-import javax.annotation.processing.Generated;
+
 import javax.persistence.*;
 
 @Entity
@@ -11,9 +9,11 @@ import javax.persistence.*;
 public class Customer {
 
 
-    @Id
+
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id
     private int custId;
+
     private String email;
     private String firstName;
     private String lastName;

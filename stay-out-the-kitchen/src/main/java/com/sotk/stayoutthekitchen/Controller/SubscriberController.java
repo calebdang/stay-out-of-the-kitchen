@@ -1,8 +1,7 @@
 package com.sotk.stayoutthekitchen.Controller;
 
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
+
 import com.sotk.stayoutthekitchen.Entity.Customer;
 import com.sotk.stayoutthekitchen.Repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
